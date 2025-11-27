@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom';
-import './header.css';
+import './Header.css';
 
 export function Header(){
     return(
@@ -27,7 +27,7 @@ export function Header(){
                         <span className="orders-text">Orders</span>
                     </Link>
 
-                    <Link className="cart-link header-link" href="/checkout">
+                    <Link className="cart-link header-link" to="/checkout">
                         <img className="cart-icon" src="images/icons/cart-icon.png" />
                         <div className="cart-quantity">3</div>
                         <div className="cart-text">Cart</div>
